@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Subscribe Now!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+    <p th:text="'Hello, ' + ${name} + '!'"></p>
+
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Coco"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Lover"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="CocoLover@coco.com"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
