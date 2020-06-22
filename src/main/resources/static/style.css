@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+}
+
+img{
+    border-radius: 8px;
+    width: 55;
+    height:550px;
+}
+
+#carouselExampleInterval{
+    width: 600px;
+}
