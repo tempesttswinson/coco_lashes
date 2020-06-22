@@ -20,6 +20,10 @@ public class Subscribe {
         this.eMail = eMail;
     }
 
+    public Subscribe() {
+
+    }
+
     public String getFirstName() {
         return firstName;
     }
